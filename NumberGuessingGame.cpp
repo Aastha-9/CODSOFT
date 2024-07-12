@@ -9,9 +9,9 @@ int main() {
     while (Guess != randomNumber) {
         cin >> Guess;
         if (Guess > randomNumber) {
-            cout << "Please enter a smaller number : ";
+            cout << "TOO HIGH !Please enter a smaller number : ";
         } else if (Guess < randomNumber) {
-            cout << "Please enter a greater number : ";
+            cout << "TOO LOW !Please enter a greater number : ";
         } else {
             cout << "Yay! You Guessed the correct number.\n";
         }
